@@ -18,6 +18,7 @@ defmodule SampleStreamWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/mp3", PageController, :mp3
   end
 
   # Other scopes may use custom stacks.
